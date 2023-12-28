@@ -6,15 +6,21 @@ public class DamkaBoard {
 		int num =  Integer.parseInt(args [0]);
 		for (int i=0; i<num;i++)
 		{
+			if (i%2==0)
+			{
+				System.out.print("*");
+			}
+			for(int j=0; j<num-1;j++)
+			{
+				System.out.print(" *");
+			}
 			if (i%2==1)
 			{
-				System.out.print(" ");
+				System.out.print(" *");
 			}
-			for(int j=0; j<num;j++)
-			{
-				System.out.print("* ");
-			}
+
 			System.out.println();
 		}
 	}
 }
+
