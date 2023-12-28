@@ -13,7 +13,7 @@ public class DamkaBoard {
 			for(int j=0; j<num-1;j++)
 			{
 				System.out.print(" *");
-			
+			}
 				if (i%2==1)
 				{
 					System.out.print(" *");
@@ -22,8 +22,8 @@ public class DamkaBoard {
 				{
 					System.out.print(" ");
 				}
-
 			System.out.println();
+
 		}
 	}
 }
